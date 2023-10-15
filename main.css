@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: montserrat;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: montserrat;
+    font-weight: normal;
+    margin: 20px;
+}
+
+input{
+    font-family: montserrat;
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+b{
+    font-family: montserrat; 
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+#comparaNumeros {
+    display: block;
+    width: 600px;
+}
+
+#btnConferir{
+    font-family: montserrat;
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(121, 158, 199);
+    border: none;
+    cursor: pointer;
+}
+
+#btnConferir:hover {
+    background-color: rgb(9, 87, 175);
+}
+
+.mensagemSucesso {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 20px;
+    margin-left: 20px;
+    width: 570px;
+    background-color: green;
+    color: #fff;
+    display: none;
+}
+
+.mensagemErro {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 20px;
+    margin-left: 20px;
+    width: 570px;
+    background-color: red;
+    color: #fff;
+    display: none;
+}
+
+.mensagemAtencao {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 20px;
+    margin-left: 20px;
+    width: 570px;
+    background-color: rgb(255, 208, 0);
+    color: #fff;
+    display: none;
+}
